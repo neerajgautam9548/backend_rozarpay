@@ -2,7 +2,7 @@
   "name": "rozarpay",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
     "express": "^5.2.1",
     "razorpay": "^2.9.6"
   }
